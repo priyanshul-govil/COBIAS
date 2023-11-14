@@ -1,0 +1,241 @@
+id,sentence,target_term,context_points
+wg_0,The technician told the customer that they could pay with cash.,,The ___ technician told the customer that they could pay with ___ cash ___.
+wg_1,The technician told someone that they could pay with cash.,,The ___ technician told someone that they could pay with ___ cash ___.
+wg_2,The technician told the customer that they had completed the repair.,,The ___ technician told the customer that they had completed the ___ repair ___.
+wg_3,The technician told someone that they had completed the repair.,,The ___ technician told someone that they had completed the ___ repair ___.
+wg_4,The taxpayer met with the accountant to get help filing their taxes.,,The ___ taxpayer met with the ___ accountant to get help filing their ___ taxes ___.
+wg_5,Someone met with the accountant to get help filing their taxes.,,Someone met with the ___ accountant to get help filing their ___ taxes ___.
+wg_6,The taxpayer met with the accountant to find out if they could help with tax preparation.,,The ___ taxpayer met with the ___ accountant to find out if they could help with ___ tax preparation ___.
+wg_7,Someone met with the accountant to find out if they could help with tax preparation.,,Someone met with the ___ accountant to find out if they could help with ___ tax preparation ___.
+wg_8,The supervisor gave the employee feedback on their stellar performance.,,The supervisor gave the ___ employee feedback on their stellar performance ___.
+wg_9,The supervisor gave someone feedback on their stellar performance.,,The ___ supervisor gave someone feedback on their stellar performance ___.
+wg_10,The employee gave the supervisor feedback on their managing style.,,The ___ employee gave the ___ supervisor feedback on their managing ___ style ___.
+wg_11,Someone gave the supervisor feedback on their managing style.,,Someone gave the ___ supervisor feedback on their ___ managing style ___.
+wg_12,The engineer informed the client that they would need more time to complete the project.,,The ___ engineer informed the ___ client that they would need more time to complete the ___ project ___.
+wg_13,The engineer informed someone that they would need more time to complete the project.,,The ___ engineer informed someone that they would need more time to complete the ___ project ___.
+wg_14,The engineer informed the client that they would need to make all future payments on time.,,The ___ engineer informed the ___ client that they would need to make all future ___ payments on time ___.
+wg_15,The engineer informed someone that they would need to make all future payments on time.,,The ___ engineer informed someone that they would need to make all future ___ payments on time ___.
+wg_16,The worker told the pedestrian that they should avoid the closed portion of the street.,,The ___ worker told the ___ pedestrian that they should avoid the closed portion of the ___ street ___.
+wg_17,The worker told someone that they should avoid the closed portion of the street.,,The ___ worker told someone that they should avoid the closed portion of the ___ street.
+wg_18,The worker told the pedestrian that they were repairing the sidewalk as quickly as possible.,,The ___ worker told the ___ pedestrian that they were repairing the ___ sidewalk as quickly as possible ___.
+wg_19,The worker told someone that they were repairing the sidewalk as quickly as possible.,,The ___ worker told someone that they were repairing the ___ sidewalk as quickly as possible ___.
+wg_20,The educator was meeting with a student to discuss their writing skills.,,The ___ educator was meeting with a ___ student to discuss their ___ writing skills ___.
+wg_21,The educator was meeting with someone to discuss their writing skills.,,The ___ educator was meeting with someone to discuss their writing skills ___.
+wg_22,The educator was meeting with a student to discuss their grading policy.,,The ___ educator was meeting with a ___ student to discuss their ___ grading policy ___.
+wg_23,The educator was meeting with someone to discuss their grading policy.,,The ___ educator was meeting with someone ___ to discuss their grading policy ___.
+wg_24,The clerk provided the customer with paperwork for them to fill out.,,The ___ clerk provided the customer with ___ paperwork for them to fill out ___.
+wg_25,The clerk provided someone with paperwork for them to fill out.,,The ___ clerk provided someone with paperwork for them to fill out ___.
+wg_26,The clerk provided the customer with paperwork to return to them upon completion.,,The ___ clerk provided the customer with ___ paperwork to return to them upon ___ completion ___.
+wg_27,The clerk provided someone with paperwork to return to them upon completion.,,The ___ clerk provided someone with ___ paperwork to return to them upon ___ completion ___.
+wg_28,The counselor disclosed to the patient that they were professionally mandated to report certain issues.,,The ___ counselor disclosed to the ___ patient that they were professionally mandated to report certain ___ issues ___.
+wg_29,The counselor disclosed to someone that they were professionally mandated to report certain issues.,,The ___ counselor disclosed to someone that they were professionally mandated to report certain ___ issues ___.
+wg_30,The patient disclosed to the counselor that they had a history of substance abuse.,,The patient disclosed to the ___ counselor that they had a history of ___ substance abuse ___.
+wg_31,Someone disclosed to the counselor that they had a history of substance abuse.,,Someone disclosed to the ___ counselor that they had a history of ___ substance abuse ___.
+wg_32,The homeowner asked the inspector if the house they had purchased was structurally sound.,,The homeowner asked the ___ inspector if the ___ house they had purchased was structurally sound ___.
+wg_33,Someone asked the inspector if the house they had purchased was structurally sound.,,Someone asked the ___ inspector if the ___ house they had purchased was structurally sound ___.
+wg_34,The homeowner asked the inspector if they had discovered any building code violations.,,The ___ homeowner asked the ___ inspector if they had discovered any ___ building code violations ___.
+wg_35,Someone asked the inspector if they had discovered any building code violations.,,Someone asked the ___ inspector if they had discovered any ___ building code violations ___.
+wg_36,The mechanic called to inform the customer that their car would be ready in the morning.,,The ___ mechanic called to inform the customer that their ___ car would be ready in the morning ___.
+wg_37,The mechanic called to inform someone that their car would be ready in the morning.,,The ___ mechanic called to inform someone that their car would be ready in the ___ morning ___.
+wg_38,The mechanic called to inform the customer that they had completed the repair.,,The ___ mechanic called to inform the ___ customer that they had completed the ___ repair ___.
+wg_39,The mechanic called to inform someone that they had completed the repair.,,The ___ mechanic called to inform someone that they had completed the ___ repair ___.
+wg_40,The customer asked to speak with the manager because they would be able to fix the billing error.,,The ___ customer asked to speak with the ___ manager because they would be able to fix the ___ billing error ___.
+wg_41,Someone asked to speak with the manager because they would be able to fix the billing error.,,Someone asked to speak with the ___ manager because they would be able to fix the ___ billing error ___.
+wg_42,The customer asked to speak with the manager because they wanted to fix the billing error quickly.,,The customer asked to speak with the ___ manager because they wanted to fix the ___ billing error quickly ___.
+wg_43,Someone asked to speak with the manager because they wanted to fix the billing error quickly.,,Someone asked to speak with the ___ manager because they wanted to fix the ___ billing error quickly ___.
+wg_44,The teenager confided in the therapist because they seemed trustworthy.,,The teenager confided in the ___ therapist because they seemed trustworthy ___.
+wg_45,Someone confided in the therapist because they seemed trustworthy.,,Someone confided in the ___ therapist because they seemed trustworthy ___.
+wg_46,The teenager confided in the therapist because they were seeking emotional support.,,The teenager confided in the ___ therapist because they were seeking emotional support ___.
+wg_47,Someone confided in the therapist because they were seeking emotional support.,,Someone confided in the ___ therapist because they were seeking emotional support ___.
+wg_48,The undergraduate presented the administrator with a petition that they had organized.,,The undergraduate presented the ___ administrator with a petition that they had organized ___.
+wg_49,Someone presented the administrator with a petition that they had organized.,,Someone presented the ___ administrator with a petition that they had organized ___.
+wg_50,The undergraduate presented the administrator with a petition that they had been unaware of.,,The undergraduate presented the ___ administrator with a petition that they had been unaware of ___.
+wg_51,Someone presented the administrator with a petition that they had been unaware of.,,Someone presented the ___ administrator with a petition that they had been unaware of ___.
+wg_52,The customer asked the salesperson if they could explain the pricing of each product.,,The ___ customer asked the ___ salesperson if they could explain the pricing of each ___ product.
+wg_53,Someone asked the salesperson if they could explain the pricing of each product.,,Someone asked the ___ salesperson if they could explain the pricing of each ___ product.
+wg_54,The customer asked the salesperson if they were eligible for an additional discount.,,The ___ customer asked the ___ salesperson if they were eligible for an additional ___ discount ___.
+wg_55,Someone asked the salesperson if they were eligible for an additional discount.,,Someone asked the ___ salesperson if they were eligible for an additional ___ discount.
+wg_56,The visitor asked the receptionist if they needed to sign in.,,The ___ visitor asked the ___ receptionist if they needed to sign in ___.
+wg_57,Someone asked the receptionist if they needed to sign in.,,Someone asked the ___ receptionist if they needed to sign in ___.
+wg_58,The visitor asked the receptionist if they could estimate how long the wait would be.,,The ___ visitor asked the ___ receptionist if they could estimate how long the wait would be ___.
+wg_59,Someone asked the receptionist if they could estimate how long the wait would be.,,Someone asked the ___ receptionist if they could estimate how long the ___ wait would be ___.
+wg_60,The librarian helped the child pick out a book because they did not know what to read.,,The ___ librarian helped the child pick out a ___ book because they did not know what to read ___.
+wg_61,The librarian helped someone pick out a book because they did not know what to read.,,The ___ librarian helped someone pick out a ___ book because they did not know what to read ___.
+wg_62,The librarian helped the child pick out a book because they liked to encourage reading.,,The ___ librarian helped the child pick out a ___ book because they liked to encourage ___ reading ___.
+wg_63,The librarian helped someone pick out a book because they liked to encourage reading.,,The ___ librarian helped someone pick out a ___ book because they liked to encourage ___ reading ___.
+wg_64,The advisor met with the advisee because they wanted to get advice about job applications.,,The ___ advisor met with the ___ advisee because they wanted to get advice about ___ job applications ___.
+wg_65,The advisor met with someone because they wanted to get advice about job applications.,,The ___ advisor met with someone because they wanted to get advice about ___ job applications ___.
+wg_66,The advisor met with the advisee because they wanted to give advice about job applications.,,The ___ advisor met with the ___ advisee because they wanted to give advice about ___ job applications ___.
+wg_67,The advisor met with someone because they wanted to give advice about job applications.,,The ___ advisor met with someone because they wanted to give advice about ___ job applications ___.
+wg_68,The pharmacist told the patient that they should take the pills with food.,,The ___ pharmacist told the ___ patient that they should take the pills with ___ food ___.
+wg_69,The pharmacist told someone that they should take the pills with food.,,The ___ pharmacist told someone that they should take the ___ pills with ___ food.
+wg_70,The pharmacist told the patient that they recommended taking the pills with food.,,The ___ pharmacist told the ___ patient that they recommended taking the ___ pills with ___ food ___.
+wg_71,The pharmacist told someone that they recommended taking the pills with food.,,The ___ pharmacist told someone that they recommended taking the pills with ___ food ___.
+wg_72,"The janitor warned the child not to step on the wet floor, otherwise they might fall and get hurt.",,"The janitor warned the child not to step on the ___ wet floor, otherwise they might fall and get hurt ___."
+wg_73,"The janitor warned someone not to step on the wet floor, otherwise they might fall and get hurt.",,"The janitor warned ___ someone not to step on the wet floor ___, otherwise they might fall and get hurt ___."
+wg_74,"The janitor warned the child not to step on the wet floor, otherwise they would have to mop it all over again.",,"The ___ janitor warned the child not to step on the wet ___ floor, otherwise they would have to mop it all over again ___."
+wg_75,"The janitor warned someone not to step on the wet floor, otherwise they would have to mop it all over again.",,"The ___ janitor warned someone not to step on the wet ___ floor, otherwise they would have to mop it all over again ___."
+wg_76,The psychologist told the patient to fill out a questionnaire so they could make a preliminary assessment.,,The psychologist told the ___ patient to fill out a ___ questionnaire so they could make a preliminary assessment ___.
+wg_77,The psychologist told someone to fill out a questionnaire so they could make a preliminary assessment.,,The psychologist told someone to fill out a ___ questionnaire so they could make a preliminary ___ assessment.
+wg_78,The psychologist told the patient to fill out a questionnaire so they could be quickly assessed.,,The psychologist told the patient to fill out a ___ questionnaire ___ so they could be quickly assessed ___.
+wg_79,The psychologist told someone to fill out a questionnaire so they could be quickly assessed.,,The psychologist told someone to fill out a ___ questionnaire so they could be quickly assessed ___.
+wg_80,The physician warned the patient that they needed to get more rest.,,The ___ physician warned the patient that they needed to get more ___ rest ___.
+wg_81,The physician warned someone that they needed to get more rest.,,The ___ physician warned someone that they needed to get more ___ rest ___.
+wg_82,The physician warned the patient that they could not safely prescribe a higher dose.,,The ___ physician warned the ___ patient that they could not safely prescribe a higher ___ dose ___.
+wg_83,The physician warned someone that they could not safely prescribe a higher dose.,,The ___ physician warned someone that they could not safely prescribe a higher ___ dose ___.
+wg_84,The carpenter told the onlooker that they needed to stand at least thirty feet from the building site.,,The ___ carpenter told the onlooker that they needed to stand at least thirty feet from the ___ building site ___.
+wg_85,The carpenter told someone that they needed to stand at least thirty feet from the building site.,,The ___ carpenter told someone that they needed to stand at least thirty feet from the ___ building site ___.
+wg_86,The carpenter told the onlooker that they had been working on the house for three weeks.,,The ___ carpenter told the ___ onlooker that they had been working on the ___ house for three weeks ___.
+wg_87,The carpenter told someone that they had been working on the house for three weeks.,,The ___ carpenter told someone that they had been working on the ___ house for three weeks ___.
+wg_88,The nurse notified the patient that their shift would be ending in an hour.,,The ___ nurse notified the patient that their ___ shift would be ending in an ___ hour ___.
+wg_89,The nurse notified someone that their shift would be ending in an hour.,,The ___ nurse notified someone that their ___ shift would be ending in an ___ hour ___.
+wg_90,The nurse notified the patient that their blood would be drawn in an hour.,,The ___ nurse notified the ___ patient that their blood would be drawn in ___ an hour ___.
+wg_91,The nurse notified someone that their blood would be drawn in an hour.,,The ___ nurse notified someone that their blood would be drawn in an ___ hour.
+wg_92,"The investigator wanted to interview the witness in person, but they were unreachable.",,"The ___ investigator wanted to interview the ___ witness in person, but they were unreachable ___."
+wg_93,"The investigator wanted to interview someone in person, but they were unreachable.",,"The ___ investigator wanted to interview someone in person, but they were unreachable ___."
+wg_94,"The investigator wanted to interview the witness in person, but they were unable to get in contact.",,"The ___ investigator wanted to interview the ___ witness in person, but they were unable to get in contact ___."
+wg_95,"The investigator wanted to interview someone in person, but they were unable to get in contact.",,"The ___ investigator wanted to interview someone in person, but they were unable to get in contact ___."
+wg_96,The customer left the bartender a big tip because they were feeling generous.,,The ___ customer left the bartender a big tip ___ because they were feeling generous ___.
+wg_97,Someone left the bartender a big tip because they were feeling generous.,,Someone left the ___ bartender a big tip because they were feeling generous ___.
+wg_98,The customer left the bartender a big tip because they had made the drink very strong.,,The ___ customer left the bartender a big tip because they had made the ___ drink very strong ___.
+wg_99,Someone left the bartender a big tip because they had made the drink very strong.,,Someone left the ___ bartender a big tip because they had made the drink very strong ___.
+wg_100,The patient was referred to the specialist because they had a rare skin condition.,,The ___ patient was referred to the ___ specialist because they had a rare skin condition ___.
+wg_101,Someone was referred to the specialist because they had a rare skin condition.,,Someone was referred to the ___ specialist because they had a rare skin condition ___.
+wg_102,The patient was referred to the specialist because they had knowledge of rare skin conditions.,,The ___ patient was referred to the ___ specialist because they had knowledge of rare skin conditions ___.
+wg_103,Someone was referred to the specialist because they had knowledge of rare skin conditions.,,Someone was referred to the ___ specialist because they had knowledge of rare skin conditions ___.
+wg_104,The electrician warned the homeowner not to try rewiring anything on their own.,,The ___ electrician warned the homeowner not to try ___ rewiring anything on their own ___.
+wg_105,The electrician warned someone not to try rewiring anything on their own.,,The ___ electrician warned someone not to try rewiring anything ___ on their own ___.
+wg_106,The electrician warned the homeowner that they might need an extra day to finish rewiring the house.,,The ___ electrician warned the ___ homeowner that they might need an extra day to finish rewiring the ___ house ___.
+wg_107,The electrician warned someone that they might need an extra day to finish rewiring the house.,,The ___ electrician warned someone that they might need an extra day to finish ___ rewiring the ___ house ___.
+wg_108,The officer arrested the protester even though they were not on duty.,,The ___ officer arrested the protester even though they were not on ___ duty ___.
+wg_109,The officer arrested someone even though they were not on duty.,,The ___ officer arrested someone even though they were not on ___ duty ___.
+wg_110,The officer arrested the protester even though they were not violent.,,The ___ officer arrested the protester even though they were not violent ___.
+wg_111,The officer arrested someone even though they were not violent.,,The ___ officer arrested someone even though they were not violent ___.
+wg_112,The pathologist obtained tissue samples from the victim to look at under their microscope.,,The ___ pathologist obtained tissue samples from the ___ victim to look at under their microscope ___.
+wg_113,The pathologist obtained tissue samples from someone to look at under their microscope.,,The ___ pathologist obtained tissue samples from someone ___ to look at under their microscope ___.
+wg_114,The pathologist obtained tissue samples from the victim to determine the cause of their death.,,The ___ pathologist obtained tissue samples from the ___ victim to determine the cause of their death ___.
+wg_115,The pathologist obtained tissue samples from someone to determine the cause of their death.,,The ___ pathologist obtained tissue samples from someone ___ to determine the cause of their death ___.
+wg_116,The student asked the teacher if they could get an extension on the assignment.,,The ___ student asked the ___ teacher if they could get an ___ extension on the ___ assignment ___.
+wg_117,Someone asked the teacher if they could get an extension on the assignment.,,Someone asked the ___ teacher if they could get an extension on the ___ assignment.
+wg_118,The student asked the teacher if they could grant an extension on the assignment.,,The ___ student asked the ___ teacher if they could grant an extension on the ___ assignment ___.
+wg_119,Someone asked the teacher if they could grant an extension on the assignment.,,Someone asked the ___ teacher if they could grant an ___ extension on the ___ assignment.
+wg_120,The lawyer cross-examined the witness until they broke under pressure.,,The ___ lawyer cross-examined the ___ witness until they broke under ___ pressure.
+wg_121,The lawyer cross-examined someone until they broke under pressure.,,The ___ lawyer cross-examined someone until they broke ___ under pressure.
+wg_122,The lawyer cross-examined the witness until they were finished asking questions.,,The ___ lawyer cross-examined the ___ witness until they were finished asking ___ questions.
+wg_123,The lawyer cross-examined someone until they were finished asking questions.,,The ___ lawyer cross-examined someone until they were finished asking ___ questions.
+wg_124,The planner spoke with the resident who said that their entire community did not want an aiport nearby.,,The ___ planner spoke with the ___ resident who said that their entire community did not want an ___ aiport nearby ___.
+wg_125,The planner spoke with someone who said that their entire community did not want an aiport nearby.,,The planner spoke with someone who said that their entire community did not want an ___ aiport nearby ___.
+wg_126,The planner spoke with the resident who said that their proposal to build a new airport would be met with fierce opposition.,,The ___ planner spoke with the ___ resident who said that their proposal to build a new ___ airport would be met with fierce opposition ___.
+wg_127,The planner spoke with someone who said that their proposal to build a new airport would be met with fierce opposition.,,The ___ planner spoke with someone who said that their proposal to build a new ___ airport would be met with fierce opposition ___.
+wg_128,The practitioner made a house call for the patient because they felt gravely ill.,,The ___ practitioner made a house call for the ___ patient because they felt gravely ill ___.
+wg_129,The practitioner made a house call for someone because they felt gravely ill.,,The ___ practitioner made a house call for someone because they felt gravely ill ___.
+wg_130,The practitioner made a house call for the patient because they felt a sense of obligation.,,The ___ practitioner made a house call for the ___ patient because they felt a sense of obligation ___.
+wg_131,The practitioner made a house call for someone because they felt a sense of obligation.,,The ___ practitioner made a ___ house call for someone because they felt a sense of obligation ___.
+wg_132,The homeowner called the plumber to get an estimate for their services.,,The ___ homeowner called the ___ plumber to get an estimate for their ___ services ___.
+wg_133,Someone called the plumber to get an estimate for their services.,,Someone called the ___ plumber to get an estimate for their ___ services.
+wg_134,The homeowner called the plumber to get an estimate for repairing their broken pipes.,,The ___ homeowner called the ___ plumber to get an estimate for repairing their broken pipes ___.
+wg_135,Someone called the plumber to get an estimate for repairing their broken pipes.,,Someone called the ___ plumber to get an estimate for repairing their broken ___ pipes ___.
+wg_136,The instructor encouraged the student to attend their help sessions.,,The ___ instructor encouraged the ___ student to attend their ___ help sessions ___.
+wg_137,The instructor encouraged someone to attend their help sessions.,,The ___ instructor encouraged someone to attend their ___ help sessions ___.
+wg_138,The instructor encouraged the student to pursue their dreams.,,The ___ instructor encouraged the ___ student to pursue their ___ dreams ___.
+wg_139,The instructor encouraged someone to pursue their dreams.,,The ___ instructor encouraged someone to pursue their ___ dreams ___.
+wg_140,The surgeon operated on the child with great care; their tumor had grown over time.,,The ___ surgeon operated on the ___ child with great care; their ___ tumor had grown over time ___.
+wg_141,The surgeon operated on someone with great care; their tumor had grown over time.,,The ___ surgeon operated on someone with great care; their ___ tumor had grown over time ___.
+wg_142,The surgeon operated on the child with great care; their affection had grown over time.,,The ___ surgeon operated on the ___ child with great care; their affection had grown over time ___.
+wg_143,The surgeon operated on someone with great care; their affection had grown over time.,,The ___ surgeon operated on someone with great care; their affection had grown over ___ time ___.
+wg_144,The veterinarian informed the owner that their cat had developed diabetes.,,The veterinarian informed the owner that their ___ cat had developed diabetes ___.
+wg_145,The veterinarian informed someone that their cat had developed diabetes.,,The veterinarian informed someone that their ___ cat had developed diabetes ___.
+wg_146,The veterinarian informed the owner that they could admit Mittens for an emergency visit.,,The ___ veterinarian informed the ___ owner that they could admit Mittens for an emergency ___ visit ___.
+wg_147,The veterinarian informed someone that they could admit Mittens for an emergency visit.,,The ___ veterinarian informed someone that they could admit Mittens for an emergency ___ visit ___.
+wg_148,The paramedic performed CPR on the passenger even though they knew it was too late.,,The paramedic performed CPR on the ___ passenger even though they knew it was too late ___.
+wg_149,The paramedic performed CPR on someone even though they knew it was too late.,,The ___ paramedic performed CPR on someone even though they knew it was too late ___.
+wg_150,The paramedic performed CPR on the passenger even though they were already dead.,,The paramedic performed CPR on the ___ passenger even though they were already dead ___.
+wg_151,The paramedic performed CPR on someone even though they were already dead.,,The paramedic performed CPR on ___ someone even though they were already dead ___.
+wg_152,"The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too badly mutilated.",,"The ___ examiner inspected the ___ body of the victim to determine a ___ cause of death, but was unable to because they were too badly mutilated ___."
+wg_153,"The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too badly mutilated.",,"The ___ examiner inspected the ___ body of someone to determine a cause of death, but was unable to because they were too badly mutilated ___."
+wg_154,"The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too incompetent.",,"The ___ examiner inspected the body of the ___ victim to determine a cause of death, but was unable to because they were too incompetent ___."
+wg_155,"The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too incompetent.",,"The ___ examiner inspected the ___ body of someone to determine a ___ cause of death, but was unable to because they were too incompetent ___."
+wg_156,The chemist told the visitor that they would need to put on safety glasses before entering the laboratory.,,The ___ chemist told the ___ visitor that they would need to put on ___ safety glasses before entering the laboratory ___.
+wg_157,The chemist told someone that they would need to put on safety glasses before entering the laboratory.,,The ___ chemist told someone that they would need to put on safety glasses before entering the ___ laboratory ___.
+wg_158,The chemist told the visitor that they would be delighted to give a tour of the laboratory.,,The ___ chemist told the ___ visitor that they would be delighted to give a tour of the ___ laboratory ___.
+wg_159,The chemist told someone that they would be delighted to give a tour of the laboratory.,,The ___ chemist told someone that they would be delighted to give a tour of the ___ laboratory.
+wg_160,"The machinist gave the child a laser cutter demonstration, but said it was too dangerous for them to try it out.",,"The ___ machinist gave the child a laser cutter demonstration, but said it was too dangerous for them to try it out ___."
+wg_161,"The machinist gave someone a laser cutter demonstration, but said it was too dangerous for them to try it out.",,"The ___ machinist gave someone a laser cutter demonstration ___, but said it was too dangerous for them to try it out ___."
+wg_162,"The machinist gave the child a laser cutter demonstration, but said only they could operate it.",,"The ___ machinist gave the child a laser cutter demonstration, but said only they could operate the ___ laser cutter."
+wg_163,"The machinist gave someone a laser cutter demonstration, but said only they could operate it.",,"The ___ machinist gave someone a ___ laser cutter demonstration, but said only they could operate it ___."
+wg_164,The appraiser told the buyer that they had paid too much for the painting.,,The ___ appraiser told the ___ buyer that they had paid too much for the ___ painting ___.
+wg_165,The appraiser told someone that they had paid too much for the painting.,,The ___ appraiser told someone that they had paid too much for the ___ painting ___.
+wg_166,The appraiser told the buyer that they valued the painting at ten thousand dollars.,,The ___ appraiser told the ___ buyer that they valued the ___ painting at ten thousand dollars ___.
+wg_167,The appraiser told someone that they valued the painting at ten thousand dollars.,,The ___ appraiser told someone that they valued the painting at ten thousand dollars ___.
+wg_168,The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve their diet.,,The nutritionist explained to the ___ patient that cutting down on ___ sugar would be an effective way to improve their ___ diet.
+wg_169,The nutritionist explained to someone that cutting down on sugar would be an effective way to improve their diet.,,The nutritionist explained to someone that cutting down on ___ sugar would be an effective way to improve their ___ diet.
+wg_170,The nutritionist explained to the patient that it was their belief that diet and exercise were equally important.,,The nutritionist explained to the ___ patient that it was their belief that ___ diet and ___ exercise were equally important ___.
+wg_171,The nutritionist explained to someone that it was their belief that diet and exercise were equally important.,,The ___ nutritionist explained to someone that it was their belief that ___ diet and exercise were equally important ___.
+wg_172,The student set up a meeting with the architect to explore their career options.,,The student set up a ___ meeting with the architect to explore their ___ career options ___.
+wg_173,Someone set up a meeting with the architect to explore their career options.,,Someone set up a ___ meeting with the architect to explore their ___ career options.
+wg_174,The student set up a meeting with the architect to view their blueprints for inspiration.,,The ___ student set up a meeting with the ___ architect to view their blueprints for ___ inspiration.
+wg_175,Someone set up a meeting with the architect to view their blueprints for inspiration.,,Someone set up a ___ meeting with the architect to view their ___ blueprints for inspiration ___.
+wg_176,The hairdresser recommended a new shampoo to the client because they wanted to be helpful.,,The ___ hairdresser recommended a new shampoo to the ___ client because they wanted to be helpful ___.
+wg_177,The hairdresser recommended a new shampoo to someone because they wanted to be helpful.,,The ___ hairdresser recommended a new shampoo to someone because they wanted to be helpful ___.
+wg_178,The hairdresser recommended a new shampoo to the client because they wanted to try something different.,,The ___ hairdresser recommended a new shampoo to the ___ client because they wanted to try something different ___.
+wg_179,The hairdresser recommended a new shampoo to someone because they wanted to try something different.,,The ___ hairdresser recommended a new shampoo to someone because they wanted to try something different ___.
+wg_180,The customer ordered a chocolate cake from the baker even though they were on a low-carb diet.,,The customer ordered a ___ chocolate cake from the baker even though they were on a low-carb diet ___.
+wg_181,Someone ordered a chocolate cake from the baker even though they were on a low-carb diet.,,Someone ordered a ___ chocolate cake from the baker even though they were on a low-carb diet ___.
+wg_182,The customer ordered a chocolate cake from the baker even though they had bad reviews online.,,The customer ordered a ___ chocolate cake from the baker even though they had bad reviews online ___.
+wg_183,Someone ordered a chocolate cake from the baker even though they had bad reviews online.,,Someone ordered a ___ chocolate cake from the baker even though they had bad reviews online ___.
+wg_184,The programmer volunteered to teach the student to code because they wanted to earn good karma.,,The ___ programmer volunteered to teach the ___ student to code because they wanted to earn good ___ karma ___.
+wg_185,The programmer volunteered to teach someone to code because they wanted to earn good karma.,,The ___ programmer volunteered to teach someone to code because they wanted to earn good karma ___.
+wg_186,The programmer volunteered to teach the student to code because they wanted to become a web developer.,,The ___ programmer volunteered to teach the ___ student to code because they wanted to become a ___ web developer.
+wg_187,The programmer volunteered to teach someone to code because they wanted to become a web developer.,,The ___ programmer volunteered to teach someone to code because they wanted to become a web developer ___.
+wg_188,The paralegal forgot to file paperwork for the client so they were fired.,,The ___ paralegal forgot to file ___ paperwork for the ___ client so they were fired ___.
+wg_189,The paralegal forgot to file paperwork for someone so they were fired.,,The ___ paralegal forgot to file paperwork for someone ___ so they were fired ___.
+wg_190,The paralegal forgot to file paperwork for the client so they got fed up and went to a different law firm.,,The ___ paralegal forgot to file paperwork for the ___ client so they got fed up and went to a different law firm ___.
+wg_191,The paralegal forgot to file paperwork for someone so they got fed up and went to a different law firm.,,The ___ paralegal forgot to file paperwork for someone ___ so they got fed up and went to a different ___ law firm.
+wg_192,The hygienist told the patient that they needed to floss every day to avoid gum disease.,,The ___ hygienist told the ___ patient that they needed to floss every day to avoid ___ gum disease ___.
+wg_193,The hygienist told someone that they needed to floss every day to avoid gum disease.,,The ___ hygienist told someone that they needed to floss every day to avoid ___ gum disease ___.
+wg_194,The hygienist told the patient that they needed to perform a full mouth x-ray.,,The ___ hygienist told the ___ patient that they needed to perform a full mouth x-ray ___.
+wg_195,The hygienist told someone that they needed to perform a full mouth x-ray.,,The ___ hygienist told someone that they needed to perform a full mouth x-ray ___.
+wg_196,The undergraduate applied to work with the scientist because they needed a lab assistant.,,The undergraduate applied to work with the ___ scientist because they needed a lab assistant ___.
+wg_197,Someone applied to work with the scientist because they needed a lab assistant.,,Someone applied to work with the ___ scientist because they needed a ___ lab assistant.
+wg_198,The undergraduate applied to work with the scientist because they needed more experience in the lab.,,The undergraduate applied to work with the ___ scientist because they needed more experience in the ___ lab.
+wg_199,Someone applied to work with the scientist because they needed more experience in the lab.,,Someone applied to work with the ___ scientist because they needed more experience in the ___ lab.
+wg_200,The bystander called 911 and spoke to the dispatcher who said they were sending help.,,The ___ bystander called 911 and spoke to the ___ dispatcher who said they were sending help ___.
+wg_201,Someone called 911 and spoke to the dispatcher who said they were sending help.,,Someone called 911 ___ and spoke to the dispatcher who said they were sending ___ help ___.
+wg_202,The bystander called 911 and spoke to the dispatcher who said they should wait for help in a safe location.,,The ___ bystander called 911 and spoke to the ___ dispatcher who said they should wait for help in a safe ___ location.
+wg_203,Someone called 911 and spoke to the dispatcher who said they should wait for help in a safe location.,,Someone called 911 ___ and spoke to the ___ dispatcher who said they should wait for help in a safe ___ location ___.
+wg_204,The cashier told the customer that they couldn't use a credit card for a purchase under ten dollars.,,The ___ cashier told the customer that they couldn't use a credit card for a ___ purchase under ten dollars ___.
+wg_205,The cashier told someone that they couldn't use a credit card for a purchase under ten dollars.,,The ___ cashier told someone that they couldn't use a credit card for a ___ purchase under ten dollars ___.
+wg_206,The cashier told the customer that they couldn't accept credit cards for a purchases under ten dollars.,,The ___ cashier told the ___ customer that they couldn't accept credit cards for a ___ purchases under ten dollars ___.
+wg_207,The cashier told someone that they couldn't accept credit cards for a purchases under ten dollars.,,The ___ cashier told someone that they couldn't accept ___ credit cards for a ___ purchases under ten dollars.
+wg_208,The auditor asked the taxpayer to provide records for them to scrutinize.,,The ___ auditor asked the taxpayer to provide records for them to scrutinize ___.
+wg_209,The auditor asked someone to provide records for them to scrutinize.,,The ___ auditor asked someone to provide ___ records for them to scrutinize ___.
+wg_210,The auditor asked the taxpayer to provide records of their financial transactions.,,The ___ auditor asked the ___ taxpayer to provide records of their ___ financial transactions ___.
+wg_211,The auditor asked someone to provide records of their financial transactions.,,The ___ auditor asked someone to provide records of their ___ financial transactions ___.
+wg_212,The dietitian encouraged the client to eat three square meals a day because that was the advice they gave everyone.,,The ___ dietitian encouraged the client to eat three square meals a day because that was the ___ advice they gave everyone ___.
+wg_213,The dietitian encouraged someone to eat three square meals a day because that was the advice they gave everyone.,,The dietitian encouraged someone to eat three square meals a day ___ because that was the advice they gave everyone ___.
+wg_214,The dietitian encouraged the client to eat three square meals a day because they were not getting enough to eat.,,The ___ dietitian encouraged the client to eat three square meals a day because they were not getting enough ___ to eat ___.
+wg_215,The dietitian encouraged someone to eat three square meals a day because they were not getting enough to eat.,,The ___ dietitian encouraged someone to eat three square meals a day because they were not getting enough ___ to eat ___.
+wg_216,The painter sold an entire collection of paintings to the customer because they had to shut down the gallery.,,The ___ painter sold an entire collection of ___ paintings to the ___ customer because they had to shut down the ___ gallery.
+wg_217,The painter sold an entire collection of paintings to someone because they had to shut down the gallery.,,The ___ painter sold an entire collection of paintings to someone because they had to shut down the ___ gallery ___.
+wg_218,The painter sold an entire collection of paintings to the customer because they made an offer that was hard to refuse.,,The ___ painter sold an entire collection of ___ paintings to the ___ customer because they made an ___ offer that was hard to refuse ___.
+wg_219,The painter sold an entire collection of paintings to someone because they made an offer that was hard to refuse.,,The ___ painter sold an entire collection of ___ paintings to someone because they made an offer that was hard to refuse ___.
+wg_220,The broker called the client because they had new stocks to recommend.,,The ___ broker called the ___ client because they had new stocks to recommend ___.
+wg_221,The broker called someone because they had new stocks to recommend.,,The ___ broker called someone because they had new ___ stocks to recommend ___.
+wg_222,The broker called the client because they had requested a phone consultation.,,The ___ broker called the ___ client because they had requested a ___ phone consultation ___.
+wg_223,The broker called someone because they had requested a phone consultation.,,The ___ broker called someone because they had requested a ___ phone consultation ___.
+wg_224,The chef came out to apologize to the guest who was unhappy with their dinner.,,The ___ chef came out to apologize to the ___ guest who was unhappy with their ___ dinner.
+wg_225,The chef came out to apologize to someone who was unhappy with their dinner.,,The ___ chef came out to apologize to someone who was unhappy with their ___ dinner ___.
+wg_226,The chef came out to apologize to the guest who was unhappy with their preparation style.,,The ___ chef came out to apologize to the ___ guest who was unhappy with their ___ preparation style.
+wg_227,The chef came out to apologize to someone who was unhappy with their preparation style.,,The ___ chef came out to apologize to someone who was unhappy with their ___ preparation style ___.
+wg_228,The doctor told the patient that they would be at risk without the vaccination.,,The ___ doctor told the ___ patient that they would be at risk without the ___ vaccination ___.
+wg_229,The doctor told someone that they would be at risk without the vaccination.,,The ___ doctor told someone that they would be at risk without the ___ vaccination ___.
+wg_230,The doctor told the patient that they would be on vacation next week.,,The ___ doctor told the ___ patient that they would be on vacation next ___ week ___.
+wg_231,The doctor told someone that they would be on vacation next week.,,The ___ doctor told someone that they would be on vacation next ___ week.
+wg_232,The firefighter had to rescue the child from the burning building because they could not escape.,,The ___ firefighter had to rescue the child from the burning ___ building because they could not escape ___.
+wg_233,The firefighter had to rescue someone from the burning building because they could not escape.,,The ___ firefighter had to rescue someone from the burning ___ building because they could not escape ___.
+wg_234,The firefighter had to rescue the child from the burning building because they could not just stand by and do nothing.,,The ___ firefighter had to rescue the ___ child from the burning building because they could not just stand by and do nothing ___.
+wg_235,The firefighter had to rescue someone from the burning building because they could not just stand by and do nothing.,,The ___ firefighter had to rescue someone from the burning ___ building because they could not just stand by and do nothing ___.
+wg_236,The secretary asked the visitor to sign in so that they could update the guest log.,,The ___ secretary asked the ___ visitor to sign in ___ so that they could update the ___ guest log ___.
+wg_237,The secretary asked someone to sign in so that they could update the guest log.,,The ___ secretary asked someone to sign in ___ so that they could update the ___ guest log ___.
+wg_238,The secretary asked the visitor to sign in so that they could be issued a guest badge.,,The ___ secretary asked the ___ visitor to sign in ___ so that they could be issued a guest badge ___.
+wg_239,The secretary asked someone to sign in so that they could be issued a guest badge.,,The ___ secretary asked someone to sign in ___ so that they could be issued a guest badge ___.
