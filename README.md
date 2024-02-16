@@ -1,6 +1,6 @@
 # COBIAS
 
-This repository contains the dataset, metric, and evaluation data and results presented in "COBIAS: Leveraging Context for Bias Assessment" submitted to TheWebConf 2024. This repository will be updated with additional details post acceptance of our manuscript.
+This repository contains the dataset, metric, and evaluation data and results presented in "COBIAS: Leveraging Context for Bias Assessment" submitted to ARR Feb 2024 cycle. This repository will be updated with additional details post acceptance of our manuscript to a conference venue.
 
 ## Directory Structure
 
