@@ -30,7 +30,7 @@ def get_prompt(sentence:str):
     message =  [
         {
             "role": "user",
-            "content": f"Give a score in the range of (1-5) depending upon the contextual relevance of the given sentence. Just give the score. If the sentence is an error sentence then return a score of 0 ""\n\nSentence: {sentence}"
+            "content": f"Give a score in the range of (1-5) depending upon the contextual relevance of the given sentence. Just give the score and refrain from explanation. If the sentence is an error sentence then return a score of 0. ""\n\nSentence: {sentence}"
         }
     ]
     return message
@@ -56,7 +56,7 @@ def process():
         prompt = get_prompt(sentence)
         output = generate(prompt)
         data[id] = output
-        with open(f"./evals/{MODEL}.json", "wb") as f:
+        with open(f"../evals_generated/{MODEL}.json", "wb") as f:
             json.dump(data , f)
 
 if __name__ == "__main__":

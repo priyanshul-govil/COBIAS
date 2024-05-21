@@ -1,0 +1,4 @@
+CohereForAI/c4ai-command-r-v01-4bit
+mosaicml/mpt-7b-instruct
+tiiuae/falcon-7b-instruct
+meta-llama/Meta-Llama-3-8B-Instruct
