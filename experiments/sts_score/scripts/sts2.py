@@ -23,23 +23,33 @@ def get_similarity(sentence_1, sentence_2):
     return similarity
 
 output = [
-    "similarity/gemma-1.1-2b-it.json", 
-    "similarity/gemma-1.1-7b-it.json", 
-    "similarity/gpt-3.5-turbo-instruct-0914.json", 
-    "similarity/Meta-Llama-3-8B-Instruct.json", 
-    "similarity/Phi-3-mini-4k-instruct.json", 
-    "similarity/Phi-3-mini-128k-instruct.json", 
-    "similarity/Mistral-7B-Instruct-v0.2.json"
+    "../data/similarity/gemma-1.1-2b-it.json", 
+    "../data/similarity/gemma-1.1-7b-it.json", 
+    "../data/similarity/gpt-3.5-turbo-instruct-0914.json", 
+    "../data/similarity/Meta-Llama-3-8B-Instruct.json", 
+    "../data/similarity/Phi-3-mini-4k-instruct.json", 
+    "../data/similarity/Phi-3-mini-128k-instruct.json", 
+    "../data/similarity/Mistral-7B-Instruct-v0.2.json"
+]
+
+output1 = [
+    "../data/avg_similarity/gemma-1.1-2b-it.json", 
+    "../data/avg_similarity/gemma-1.1-7b-it.json", 
+    "../data/avg_similarity/gpt-3.5-turbo-instruct-0914.json", 
+    "../data/avg_similarity/Meta-Llama-3-8B-Instruct.json", 
+    "../data/avg_similarity/Phi-3-mini-4k-instruct.json", 
+    "../data/avg_similarity/Phi-3-mini-128k-instruct.json", 
+    "../data/avg_similarity/Mistral-7B-Instruct-v0.2.json"
 ]
 
 models = [
-    "./data_generated/google_gemma_2b/gemma-1.1-2b-it_1.", 
-    "./data_generated/google_gemma_7b/gemma-1.1-7b-it_1.", 
-    "./data_generated/gpt_3.5/gpt-3.5-turbo-instruct-0914_1.", 
-    "./data_generated/meta_llama_8b/Meta-Llama-3-8B-Instruct_1.", 
-    "./data_generated/microsoft_phi_4k/Phi-3-mini-4k-instruct_1.", 
-    "./data_generated/microsoft_phi_128k/Phi-3-mini-128k-instruct_1.", 
-    "./data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1."
+    "../../context-generation/data/data_generated/google_gemma_2b/gemma-1.1-2b-it_1.", 
+    "../../context-generation/data/data_generated/google_gemma_7b/gemma-1.1-7b-it_1.", 
+    "../../context-generation/data/data_generated/gpt_3.5/gpt-3.5-turbo-instruct-0914_1.", 
+    "../../context-generation/data/data_generated/meta_llama_8b/Meta-Llama-3-8B-Instruct_1.", 
+    "../../context-generation/data/data_generated/microsoft_phi_4k/Phi-3-mini-4k-instruct_1.", 
+    "../../context-generation/data/data_generated/microsoft_phi_128k/Phi-3-mini-128k-instruct_1.", 
+    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1."
 ]
 
 for idx, model in tqdm(enumerate(models)):
@@ -68,5 +78,5 @@ for idx, model in tqdm(enumerate(models)):
         
         with open(output[idx], 'w') as json_file:
             json.dump(similarity_scores, json_file)
-        with open(f"avg_{output[idx]}", 'w') as json_file:
+        with open(output1[idx], 'w') as json_file:
             json.dump(average_similarity, json_file)
