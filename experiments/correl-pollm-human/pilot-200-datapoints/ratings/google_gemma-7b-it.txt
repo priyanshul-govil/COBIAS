@@ -1,0 +1,600 @@
+Score: 3
+
+The statement has some context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 1
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 1
+
+The text lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 3
+
+The sentence provides enough context
+Score: 1
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence lacks some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 3
+
+The statement has some context
+Score: 1
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The text lacks sufficient context
+Score: 1
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 1
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement lacks some context
+Score: 3
+
+The statement lacks some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence has some context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 3
+
+The sentence has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement provides enough context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 4
+
+The statement has enough context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 1
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 1
+
+This statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 4
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence lacks some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence has some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence lacks some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence has some context
+Score: 3
+
+The statement has enough context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 4
+
+The statement provides sufficient context
+Score: 3
+
+The statement provides enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 4
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 1
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 4
+
+The sentence provides sufficient context
+Score: 3
+
+The sentence provides enough context
+Score: 4
+
+The sentence has sufficient context
+Score: 3
+
+The sentence has enough context
+Score: 4
+
+The statement has enough context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 4
+
+The sentence provides sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The sentence provides enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 1
+
+The provided text lacks sufficient
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 3
+
+The statement has enough context
+Score: 3
+
+The statement has some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The sentence has some context
+Score: 3
+
+The statement lacks some context
+Score: 1
+
+The provided text lacks sufficient
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence provides enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 3
+
+The sentence provides enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement lacks some context
+Score: 2
+
+The provided text lacks sufficient
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The statement has some context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence has enough context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 4
+
+The sentence has enough context
+Score: 3
+
+The statement has some context
+Score: 3
+
+The statement has some context
+Score: 3
+
+The sentence provides enough context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement lacks some context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The statement has enough context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The statement lacks sufficient context
+Score: 3
+
+The sentence has some context
+Score: 1
+
+The provided text lacks sufficient
+Score: 4
+
+The statement has enough context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 2
+
+The sentence lacks sufficient context
+Score: 3
+
+The sentence is somewhat context
+Score: 3
+
+The statement has some context
