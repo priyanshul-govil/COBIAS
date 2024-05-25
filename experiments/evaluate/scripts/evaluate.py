@@ -16,7 +16,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL)
 data = pd.read_csv(DATASET_PATH)
 
 pipe = pipeline(
-        task="text-generation",
+        task="fill-mask",
         model=MODEL,
         tokenizer=tokenizer,
         torch_dtype=torch.bfloat16,
