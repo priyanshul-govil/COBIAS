@@ -1,0 +1,8 @@
+mosaicml/mpt-7b-instruct
+meta-llama/Meta-Llama-3-8B-Instruct
+mistralai/Mistral-7B-Instruct-v0.3
+mistralai/Mistral-7B-Instruct-v0.2
+microsoft/Phi-3-mini-128k-instruct
+google/gemma-7b-it
+allenai/OLMo-7B-Instruct
+Deci/DeciLM-7B-instruct
