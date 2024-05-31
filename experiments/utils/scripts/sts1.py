@@ -38,7 +38,8 @@ output = [
     "../data/similarity_context_x/Meta-Llama-3-8B-Instruct.json", 
     "../data/similarity_context_x/Phi-3-mini-4k-instruct.json", 
     "../data/similarity_context_x/Phi-3-mini-128k-instruct.json", 
-    "../data/similarity_context_x/Mistral-7B-Instruct-v0.2.json"
+    "../data/similarity_context_x/Mistral-7B-Instruct-v0.2.json",
+    "../data/similarity_context_x/Mistral-7B-Instruct-v0.3.json"
 ]
 
 output1 = [
@@ -48,7 +49,8 @@ output1 = [
     "../data/avg_similarity_context_x/Meta-Llama-3-8B-Instruct.json", 
     "../data/avg_similarity_context_x/Phi-3-mini-4k-instruct.json", 
     "../data/avg_similarity_context_x/Phi-3-mini-128k-instruct.json", 
-    "../data/avg_similarity_context_x/Mistral-7B-Instruct-v0.2.json"
+    "../data/avg_similarity_context_x/Mistral-7B-Instruct-v0.2.json",
+    "../data/avg_similarity_context_x/Mistral-7B-Instruct-v0.3.json",
 ]
 
 # Make dirs ../data/similarity_context_x
@@ -62,7 +64,8 @@ models = [
     "../../context-generation/data/data_generated/meta_llama_8b/Meta-Llama-3-8B-Instruct_1.", 
     "../../context-generation/data/data_generated/microsoft_phi_4k/Phi-3-mini-4k-instruct_1.", 
     "../../context-generation/data/data_generated/microsoft_phi_128k/Phi-3-mini-128k-instruct_1.", 
-    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1."
+    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1.",
+    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.3_1.",
 ]
 
 for idx, model in tqdm(enumerate(models)):
