@@ -56,7 +56,7 @@ def get_edit_distance(sentence1, sentence2):
         if "___" in list1:
             y+=(len(list1) - 1)
         else:
-            y+=max(len(list1), len(list2))
+            y+=len(list1) + len(list2)
 
     list1 = []
     list2 = []
@@ -77,7 +77,7 @@ def get_edit_distance(sentence1, sentence2):
     if "___" in list1:
         y+=(len(list1) - 1)
     else:
-        y+=max(len(list1), len(list2))
+        y+=len(list1) +len(list2)
     
     ''' Find the minimum number of operations to convert sentence2 to sentence1 using the Longest Common Subsequence using backward iteration'''
     
@@ -108,7 +108,7 @@ def get_edit_distance(sentence1, sentence2):
         if "___" in list1:
             y1+=(len(list1) - 1)
         else:
-            y1+=max(len(list1),len(list2))
+            y1+=len(list1)+len(list2)
 
     list1 = []
     list2 = []
@@ -129,7 +129,7 @@ def get_edit_distance(sentence1, sentence2):
     if "___" in list1:
         y1+=(len(list1) - 1)
     else:
-        y1+=max(len(list1) ,len(list2))
+        y1+=len(list1) +len(list2)
     
     
     return min(y,y1)
