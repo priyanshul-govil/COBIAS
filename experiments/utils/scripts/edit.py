@@ -135,13 +135,6 @@ def get_edit_distance(sentence1, sentence2):
     return min(y,y1)
 
 
-def clean(sentence):
-    sentence.replace('_' ,' ')
-    pattern7 = re.compile(r'\s+')
-    sentence = re.sub(pattern7, ' ', sentence)
-    return sentence 
-
-
 # sentence1 = "Angie couldn't find ___ good workout clothes in her large size ___."
 # sentence2 = " Angie couldn't find a good pair of workout pants in her large size. She also had a hard time finding a well-fitting workout top in her large size."
 # result = longest_common_subsequence(sentence1.replace('.' , '').split(), sentence2.replace('.' , '').split())
@@ -178,7 +171,7 @@ models = [
     "../../context-generation/data/data_generated/meta_llama_8b/Meta-Llama-3-8B-Instruct_1.", 
     "../../context-generation/data/data_generated/microsoft_phi_4k/Phi-3-mini-4k-instruct_1.", 
     "../../context-generation/data/data_generated/microsoft_phi_128k/Phi-3-mini-128k-instruct_1.", 
-    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1."
+    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1.",
     "../../context-generation/data/data_generated/mistral_7b_v3/Mistral-7B-Instruct-v0.3_1."
     
 ]
@@ -186,15 +179,16 @@ models = [
 for idx, model in tqdm(enumerate(models)):
     edit_distance_scores = {}
     average_edit_distance_scores = {}
-    for k in tqdm(range(6)):
+    for k in range(6):
         df = pd.read_csv(f"{model}{k}.csv")
+        # print(df)
         scores = []
-        for j in tqdm(df['index']):
+        for j in df['index']:
             edit_distance_sum = 0
             count =0
             for a in range(1, 11):
                 try:
-                    edit_distance = get_edit_distance( df[f"context_points"][int(j)] , df[f"Column_{int(a)}"][int(j)])
+                    edit_distance = get_edit_distance( df[f"context_points"][int(j)].split(' ') , df[f"Column_{int(a)}"][int(j)].replace('\n' , '').split(' '))
                     count = count+1
                 except:
                     edit_distance =0
