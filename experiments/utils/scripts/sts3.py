@@ -45,7 +45,7 @@ output1 = [
     "../data/avg_similarity/Mistral-7B-Instruct-v0.3.json",
 ]
 
-# Make dirs ../data/similarity_context_x
+# Make dirs
 os.makedirs("../data/similarity", exist_ok=True)
 os.makedirs("../data/avg_similarity", exist_ok=True)
 
@@ -86,5 +86,5 @@ for idx, model in tqdm(enumerate(models)):
 
         with open(output[idx], 'w') as json_file:
             json.dump(similarity_scores, json_file)
-        with open(f"avg_{output1[idx]}", 'w') as json_file:
+        with open(f"{output1[idx]}", 'w') as json_file:
             json.dump(average_similarity, json_file)
