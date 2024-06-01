@@ -65,7 +65,7 @@ models = [
     "../../context-generation/data/data_generated/microsoft_phi_4k/Phi-3-mini-4k-instruct_1.", 
     "../../context-generation/data/data_generated/microsoft_phi_128k/Phi-3-mini-128k-instruct_1.", 
     "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1.",
-    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.3_1.",
+    "../../context-generation/data/data_generated/mistral_7b_v3/Mistral-7B-Instruct-v0.3_1.",
 ]
 
 for idx, model in tqdm(enumerate(models)):
@@ -76,7 +76,6 @@ for idx, model in tqdm(enumerate(models)):
             df = pd.read_csv(f"{model}{k}.csv")
             scores = []
             for j in tqdm(df['index']):
-                # if j ==1055:
                 similarity_sum = 0
                 count =0
                 cleaned_sent = clean(df[f"context_points"][int(j)])
