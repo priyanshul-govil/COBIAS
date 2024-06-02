@@ -141,45 +141,45 @@ def get_edit_distance(sentence1, sentence2):
 # print(result)
 
 output = [
-    "../data/edit_distance/gemma-1.1-2b-it.json", 
-    "../data/edit_distance/gemma-1.1-7b-it.json", 
+    # "../data/edit_distance/gemma-1.1-2b-it.json", 
+    # "../data/edit_distance/gemma-1.1-7b-it.json", 
     "../data/edit_distance/gpt-3.5-turbo-instruct-0914.json", 
-    "../data/edit_distance/Meta-Llama-3-8B-Instruct.json", 
-    "../data/edit_distance/Phi-3-mini-4k-instruct.json", 
-    "../data/edit_distance/Phi-3-mini-128k-instruct.json", 
-    "../data/edit_distance/Mistral-7B-Instruct-v0.2.json",
-    "../data/edit_distance/Mistral-7B-Instruct-v0.3.json",
+    # "../data/edit_distance/Meta-Llama-3-8B-Instruct.json", 
+    # "../data/edit_distance/Phi-3-mini-4k-instruct.json", 
+    # "../data/edit_distance/Phi-3-mini-128k-instruct.json", 
+    # "../data/edit_distance/Mistral-7B-Instruct-v0.2.json",
+    # "../data/edit_distance/Mistral-7B-Instruct-v0.3.json",
     
 ]
 
 output1 = [
-    "../data/avg_edit_distance/gemma-1.1-2b-it.json", 
-    "../data/avg_edit_distance/gemma-1.1-7b-it.json", 
+    # "../data/avg_edit_distance/gemma-1.1-2b-it.json", 
+    # "../data/avg_edit_distance/gemma-1.1-7b-it.json", 
     "../data/avg_edit_distance/gpt-3.5-turbo-instruct-0914.json", 
-    "../data/avg_edit_distance/Meta-Llama-3-8B-Instruct.json", 
-    "../data/avg_edit_distance/Phi-3-mini-4k-instruct.json", 
-    "../data/avg_edit_distance/Phi-3-mini-128k-instruct.json", 
-    "../data/avg_edit_distance/Mistral-7B-Instruct-v0.2.json",
-    "../data/avg_edit_distance/Mistral-7B-Instruct-v0.3.json",
+    # "../data/avg_edit_distance/Meta-Llama-3-8B-Instruct.json", 
+    # "../data/avg_edit_distance/Phi-3-mini-4k-instruct.json", 
+    # "../data/avg_edit_distance/Phi-3-mini-128k-instruct.json", 
+    # "../data/avg_edit_distance/Mistral-7B-Instruct-v0.2.json",
+    # "../data/avg_edit_distance/Mistral-7B-Instruct-v0.3.json",
     
 ]
 
 models = [
-    "../../context-generation/data/data_generated/google_gemma_2b/gemma-1.1-2b-it_1.", 
-    "../../context-generation/data/data_generated/google_gemma_7b/gemma-1.1-7b-it_1.", 
+    # "../../context-generation/data/data_generated/google_gemma_2b/gemma-1.1-2b-it_1.", 
+    # "../../context-generation/data/data_generated/google_gemma_7b/gemma-1.1-7b-it_1.", 
     "../../context-generation/data/data_generated/gpt_3.5/gpt-3.5-turbo-instruct-0914_1.", 
-    "../../context-generation/data/data_generated/meta_llama_8b/Meta-Llama-3-8B-Instruct_1.", 
-    "../../context-generation/data/data_generated/microsoft_phi_4k/Phi-3-mini-4k-instruct_1.", 
-    "../../context-generation/data/data_generated/microsoft_phi_128k/Phi-3-mini-128k-instruct_1.", 
-    "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1.",
-    "../../context-generation/data/data_generated/mistral_7b_v3/Mistral-7B-Instruct-v0.3_1."
+    # "../../context-generation/data/data_generated/meta_llama_8b/Meta-Llama-3-8B-Instruct_1.", 
+    # "../../context-generation/data/data_generated/microsoft_phi_4k/Phi-3-mini-4k-instruct_1.", 
+    # "../../context-generation/data/data_generated/microsoft_phi_128k/Phi-3-mini-128k-instruct_1.", 
+    # "../../context-generation/data/data_generated/mistral_7b/Mistral-7B-Instruct-v0.2_1.",
+    # "../../context-generation/data/data_generated/mistral_7b_v3/Mistral-7B-Instruct-v0.3_1."
     
 ]
 
 for idx, model in tqdm(enumerate(models)):
     edit_distance_scores = {}
     average_edit_distance_scores = {}
-    for k in range(6):
+    for k in range(10):
         df = pd.read_csv(f"{model}{k}.csv")
         # print(df)
         scores = []
