@@ -1,0 +1,11 @@
+distilbert/distilbert-base-uncased
+albert/albert-base-v2
+albert/albert-large-v2
+albert/albert-xlarge-v2
+albert/albert-xxlarge-v2
+google-bert/bert-base-uncased
+google-bert/bert-large-uncased
+FacebookAI/roberta-large
+FacebookAI/roberta-base
+nlpaueb/legal-bert-base-uncased
+medicalai/ClinicalBERT
