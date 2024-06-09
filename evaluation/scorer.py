@@ -1,4 +1,4 @@
-from helper import mask_unigram, get_dissimiliarity
+from helper import mask_unigram
 from model_loader import load_models_tokenizers
 import torch
 import argparse
@@ -7,20 +7,20 @@ import pandas as pd
 import pickle
 from tqdm import tqdm
 from math import log
+import numpy as np
 
-num_of_augmentations = 40
 
-# models and tokenizers (model, tokenizer, uncased: bool, model_name)
-models_tokenizers = load_models_tokenizers()
+num_of_augmentations = 35
+np.random.seed(42)
+
 
 def process_row(data):
     original_sentence = data['sentence']
     id = data['id']
-    target = data['target_term']
+    # target = data['target_term']
     augmented_sentences_scores = []
     augmented_sentences_PLLs = []
     original_PLL = []
-    dissim_scores = []
 
     # Load final_augmented_sentences/{id}.pkl
     try:
@@ -29,10 +29,15 @@ def process_row(data):
     except FileNotFoundError:
         return None
 
+    # Generation from GPT-3.5 contain leading newline characters
+    for i in range(len(augmented_sentences)):
+        augmented_sentences[i] = augmented_sentences[i].replace('\n', '')
+
+    np.random.shuffle(augmented_sentences)
     augmented_sentences = augmented_sentences[:num_of_augmentations]
     N = len(augmented_sentences)
 
-    original_sentence_score = 0
+    original_sentence_score = 0.
     for _ in models_tokenizers:
         tokenizer = _[0]
         model = _[1]
@@ -49,7 +54,7 @@ def process_row(data):
             "uncased": uncased
             }
          
-        pll = mask_unigram(original_sentence, target, lm)
+        pll = mask_unigram(original_sentence, lm)
         original_PLL.append(pll)
         original_sentence_score += pll
     original_sentence_score /= len(models_tokenizers)
@@ -73,7 +78,7 @@ def process_row(data):
                 "uncased": uncased
                 }
 
-            pll = mask_unigram(augmented_sent, target, lm)
+            pll = mask_unigram(augmented_sent, lm)
             pll_list.append(pll)
             score_sum += pll
 
@@ -81,13 +86,9 @@ def process_row(data):
         avg_score = score_sum / len(models_tokenizers)
         augmented_sentences_scores.append(avg_score)
 
-        dissim_scores.append(get_dissimiliarity(original_sentence, augmented_sent))
-
-    # Average dissimiliarity score
-    avg_dissim_score = sum(dissim_scores) / len(dissim_scores)
 
     # Calculate context variance
-    cv_score = 0
+    cv_score = 0.
     for score in augmented_sentences_scores:
         cv_score += (score - original_sentence_score) ** 2
     cv_score /= N
@@ -103,8 +104,6 @@ def process_row(data):
         'original_PLL': original_PLL,
         'augmented_PLLs': augmented_sentences_PLLs,
         'context_variance': cv_score,
-        # 'dissim_scores': dissim_scores,
-        'avg_dissim_score': avg_dissim_score,
         'cobias': cobias
     }
 
@@ -126,7 +125,7 @@ def evaluate(args, df_data):
     with tqdm(total=total) as pbar:
         for _, data in df_data.iterrows():
             try:
-                df_score = df_score.append(process_row(data), ignore_index=True)
+                df_score = df_score._append(process_row(data), ignore_index=True)
             except Exception as e:
                 with open("error_log.txt", "a") as f:
                     f.write(f"{data['id']}: {e}\n")
@@ -140,6 +139,8 @@ def evaluate(args, df_data):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--model_names", type=str, help="comma separated list of model names (model_1, model_2, ...)",
+                        default="google-bert/bert-base-uncased, FacebookAI/roberta-base, albert/albert-base-v2")
     parser.add_argument("--input_file", type=str, help="path to dataset")
     parser.add_argument("--output_file", type=str, help="path to output file with sentence scores")
     parser.add_argument("--data_folder", type=str, help="path to folder containing the context added pkl files")
@@ -148,6 +149,12 @@ if __name__ == "__main__":
 
     # load data into panda DataFrame
     df_data = pd.read_csv(args.input_file)
-    df_data['target_term'].fillna('', inplace=True)
+
+    model_names = args.model_names.split(', ')
+
+    # args.output_file = f"COBIAS_SCORES_{model_names[0].split('/')[-1]}.csv"
+
+    # models and tokenizers (model, tokenizer, uncased: bool, model_name)  
+    models_tokenizers = load_models_tokenizers(model_names=model_names)
     
     evaluate(args, df_data)

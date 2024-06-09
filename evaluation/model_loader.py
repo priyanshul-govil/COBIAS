@@ -1,26 +1,16 @@
-from transformers import BertTokenizer, BertForMaskedLM
-from transformers import AlbertTokenizer, AlbertForMaskedLM
-from transformers import RobertaTokenizer, RobertaForMaskedLM
-
+from transformers import AutoTokenizer, AutoModelForMaskedLM
 import torch
 
-def load_models_tokenizers():
-    models_tokenizers = [(
-        BertTokenizer.from_pretrained('bert-large-uncased'),
-        BertForMaskedLM.from_pretrained('bert-large-uncased'),
-        True,
-        "bert-large-uncased"
-    ), (
-        RobertaTokenizer.from_pretrained('roberta-large'),
-        RobertaForMaskedLM.from_pretrained('roberta-large'),
-        False,
-        "roberta-large"
-    ), (
-        AlbertTokenizer.from_pretrained('albert-xxlarge-v2'),
-        AlbertForMaskedLM.from_pretrained('albert-xxlarge-v2'),
-        True,
-        "albert-xxlarge-v2"
-    )]
+def load_models_tokenizers(model_names: list):
+
+    models_tokenizers = []
+    for model_name in model_names:
+        models_tokenizers.append((
+            AutoTokenizer.from_pretrained(model_name),
+            AutoModelForMaskedLM.from_pretrained(model_name),
+            "True",
+            model_name
+        ))
 
     for _ in models_tokenizers:
         if torch.cuda.is_available():

@@ -1,21 +1,5 @@
-import difflib
+# import difflib
 import torch
-
-from sentence_transformers import SentenceTransformer, util
-sts_model = SentenceTransformer('all-MiniLM-L6-v2', device='cuda')
-
-
-def get_dissimiliarity(sentence_1, sentence_2):
-    """
-    Given two sentences, return a matrix of cosine similarity scores.
-    """
-
-    embeddings_1 = sts_model.encode(sentence_1, convert_to_tensor=True)
-    embeddings_2 = sts_model.encode(sentence_2, convert_to_tensor=True)
-
-    cosine_scores = util.cos_sim(embeddings_1, embeddings_2)
-    dissimilarity = 1 - cosine_scores[0][0].cpu().item()
-    return dissimilarity
 
 
 def get_log_prob_unigram(masked_token_ids, token_ids, mask_idx, lm):
@@ -44,28 +28,7 @@ def get_log_prob_unigram(masked_token_ids, token_ids, mask_idx, lm):
     return log_probs
 
 
-def get_context(sent, target):
-    """
-    This function extracts context of `sent` sentence by removing the `target` span.
-    """
-
-    sent = [str(x) for x in sent.tolist()]
-    target = [str(x) for x in target.tolist()]
-
-    matcher = difflib.SequenceMatcher(None, sent, target)
-    context_idxs = []
-    for op in matcher.get_opcodes():
-        # each op is a list of tuple: 
-        # (operation, pro_idx_start, pro_idx_end, anti_idx_start, anti_idx_end)
-        # possible operation: replace, insert, equal
-        # https://docs.python.org/3/library/difflib.html
-        if op[0] != 'equal':
-            context_idxs += [x for x in range(op[1], op[2], 1)]
-
-    return context_idxs
-
-
-def mask_unigram(sent, target, lm, n=1):
+def mask_unigram(sent, lm):
     """
     Score each sentence by masking one word at a time.
     The score for a sentence is the sum of log probability of each word in
@@ -87,24 +50,18 @@ def mask_unigram(sent, target, lm, n=1):
         sent = sent.lower()
 
     # tokenize
-    sent_token_ids = tokenizer.encode(sent, return_tensors='pt').to(device)
-    target_token_ids = tokenizer.encode(target, return_tensors='pt').to(device)
+    sent_token_ids = tokenizer.encode(sent, add_special_tokens=False, return_tensors='pt').to(device)
 
-    # get spans of non-changing tokens
-    context = get_context(sent_token_ids[0], target_token_ids[0])
-
-    N = len(context)  # num. of tokens that can be masked
     mask_id = tokenizer.convert_tokens_to_ids(mask_token)
     
     sent_log_probs = 0.
     total_masked_tokens = 0
 
-    # skipping CLS and SEP tokens, they'll never be masked
-    for i in range(1, N-1):
+    for i in range(len(sent_token_ids[0])):
         sent_masked_token_ids = sent_token_ids.clone()
-        sent_masked_token_ids[0][context[i]] = mask_id
+        sent_masked_token_ids[0][i] = mask_id
         total_masked_tokens += 1
-        score = get_log_prob_unigram(sent_masked_token_ids, sent_token_ids, context[i], lm)
+        score = get_log_prob_unigram(sent_masked_token_ids, sent_token_ids, i, lm)
         sent_log_probs += score.item()
 
     return abs(sent_log_probs / total_masked_tokens)
