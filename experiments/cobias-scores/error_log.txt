@@ -1,3 +1,0 @@
-test_65: float division by zero
-test_80: float division by zero
-test_84: float division by zero

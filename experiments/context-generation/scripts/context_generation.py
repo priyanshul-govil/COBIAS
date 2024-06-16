@@ -70,7 +70,7 @@ def process_for_temperature(temp):
             output = generate(prompt, temp)
             generations[id].append(output)
 
-    with open(f"/home/pgovil1/generations/generations_{MODEL}_{temp}_{DF_BATCH_SEGMENT}.pkl", "wb") as f:
+    with open(f"../data/generations/generations_{MODEL}_{temp}_{DF_BATCH_SEGMENT}.pkl", "wb") as f:
         pickle.dump(generations, f)
 
 

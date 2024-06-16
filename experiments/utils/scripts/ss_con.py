@@ -8,8 +8,6 @@ import os
 from sentence_transformers import SentenceTransformer, util
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-# # device = "mps"
-# device = "cpu"
 
 sts_model = SentenceTransformer('all-MiniLM-L6-v2', device=device)
 
