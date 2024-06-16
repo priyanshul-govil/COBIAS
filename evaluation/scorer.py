@@ -152,8 +152,6 @@ if __name__ == "__main__":
 
     model_names = args.model_names.split(', ')
 
-    # args.output_file = f"COBIAS_SCORES_{model_names[0].split('/')[-1]}.csv"
-
     # models and tokenizers (model, tokenizer, uncased: bool, model_name)  
     models_tokenizers = load_models_tokenizers(model_names=model_names)
     
