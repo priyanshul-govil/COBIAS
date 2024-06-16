@@ -7,8 +7,9 @@ This repository contains the dataset, metric, evaluation data, and results prese
 * `annotations/`: Human annotation data for verification of generated context addition points, and metric validation.
 * `datasets/`: `COBIAS.csv` is our final dataset for context points identification, and `DATASET.csv` is the intermediate data created for human verification.
 * `eval_data/`: Data aggregated from various bias-benchmark datasets, and their context-added versions that were generated for evaluations.
-* `evaluation/`: COBIAS Metric -- this should be run to evaluate a dataset for its contextual reliability
-* `results/`: COBIAS scores obtained from our evaluations
+* `evaluation/`: COBIAS Metric -- this should be run to evaluate a dataset for its contextual reliability.
+* `experiments/`: Various experimentation that was conducted as part of this work.
+* `results/`: COBIAS scores obtained from our evaluations.
 
 ## Running COBIAS on a dataset
 
