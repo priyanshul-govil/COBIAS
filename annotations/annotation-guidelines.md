@@ -2,7 +2,7 @@
 
 **Warning: This task contains explicit statements of offensive stereotypes and may be upsetting.**
 
-### Please go through this annotation guideline before you start with the annotations. If you have any doubts before/during the annotation task, reach out to pgovil1@umbc.edu
+### Please go through this annotation guideline before you start with the annotations. If you have any doubts before/during the annotation task, reach out to xxxxx@xxx.xxx
 
 ---
 
